@@ -1,2 +1,2 @@
-## Flipkart Clone App using React Native
+# Ekart-Mobile App using React Native
 
