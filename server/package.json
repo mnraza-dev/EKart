@@ -4,10 +4,11 @@
   "main": "app.js",
   "type": "module",
   "scripts": {
-    "start": "nodemon app.js"
+    "start": "node app.js",
+    "dev": "nodemon app.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["Ekart", "E-commerce","eshop"],
+  "author": "MN Raza",
   "license": "ISC",
   "description": "",
   "devDependencies": {
