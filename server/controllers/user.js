@@ -1,8 +1,6 @@
 import User from "../models/user.js";
-
 const loginOrRegister = async (req, res) => {
   const { phone, address } = req.body;
-
   try {
     let user = await User.findOne({ phone });
     if (!user) {
@@ -21,5 +19,4 @@ const loginOrRegister = async (req, res) => {
     });
   }
 };
-
 export { loginOrRegister };
